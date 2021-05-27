@@ -9,6 +9,7 @@ const CategoriesScreen = props => {
         return (
             <CategoryGridTile 
                 title={itemData.item.title}
+                color={itemData.item.color}
                 onSelect={() => {
                     props.navigation.navigate('CategoryMeals', { categoryId: itemData.item.id });
                 }}
