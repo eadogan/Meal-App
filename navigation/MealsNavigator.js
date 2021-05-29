@@ -3,7 +3,6 @@ import { Platform, View } from "react-native";
 import { createAppContainer } from "react-navigation";
 import { createStackNavigator } from "react-navigation-stack";
 import { createMaterialBottomTabNavigator } from 'react-navigation-material-bottom-tabs';
-import { createDrawerNavigator } from '@react-navigation/drawer';
 import Colors from '../constants/Colors';
 import { Ionicons } from '@expo/vector-icons';
 
